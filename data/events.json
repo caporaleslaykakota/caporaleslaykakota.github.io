@@ -1,0 +1,32 @@
+[
+  {
+    "id": "evt-001",
+    "type": "Presentación",
+    "date": "2026-11-22",
+    "time": "16:00",
+    "title": "Presentación cultural",
+    "place": "Lima",
+    "description": "Participación artística de la agrupación. Datos demostrativos.",
+    "public": true
+  },
+  {
+    "id": "evt-002",
+    "type": "Ensayo",
+    "date": "2026-11-28",
+    "time": "18:00",
+    "title": "Ensayo abierto informativo",
+    "place": "Lima",
+    "description": "Espacio para conocer nuestra dinámica y resolver dudas de aspirantes. Datos demostrativos.",
+    "public": true
+  },
+  {
+    "id": "evt-003",
+    "type": "RCC",
+    "date": "2027-10-24",
+    "time": "13:00",
+    "title": "Ritmo, Color y Candelaria",
+    "place": "Lima",
+    "description": "Fecha demostrativa para la próxima edición. Reemplazar al confirmar.",
+    "public": true
+  }
+]

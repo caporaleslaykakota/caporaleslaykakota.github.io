@@ -1,0 +1,156 @@
+{
+    "currentYear": 2026,
+    "intro": "Una memoria visual organizada por año y experiencia. Selecciona un año y abre cada evento para recorrer sus fotografías.",
+    "years": [
+        {
+            "year": 2026,
+            "experiences": [
+                {
+                    "id": "candelaria-puno-2026",
+                    "title": "Candelaria - Puno",
+                    "month": "Febrero",
+                    "year": 2026,
+                    "location": "Puno",
+                    "cover": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-01-thumb.webp",
+                    "description": "Registro fotográfico de Candelaria - Puno, Febrero 2026. Contenido demostrativo para reemplazar por fotografías reales.",
+                    "images": [
+                        {
+                            "src": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-01.webp",
+                            "thumb": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-01-thumb.webp",
+                            "alt": "Candelaria - Puno, Febrero 2026 - fotografía 1"
+                        }
+                    ]
+                },
+                {
+                    "id": "saludo-collasuyo-cusco-2026",
+                    "title": "Saludo al Collasuyo - Cusco",
+                    "month": "Junio",
+                    "year": 2026,
+                    "location": "Cusco",
+                    "cover": "assets/images/gallery/2026/saludo-collasuyo-cusco/saludo-collasuyo-cusco-2026-01-thumb.webp",
+                    "description": "Registro fotográfico de Saludo al Collasuyo - Cusco, Junio 2026. Contenido demostrativo para reemplazar por fotografías reales.",
+                    "images": []
+                },
+                {
+                    "id": "gran-parada-lima-2026",
+                    "title": "Gran Parada de Lima",
+                    "month": "Setiembre",
+                    "year": 2026,
+                    "location": "Lima",
+                    "cover": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-04-thumb.webp",
+                    "description": "Registro fotográfico de Gran Parada de Lima, Setiembre 2026.",
+                    "images": [
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-01.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-01-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 1"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-02.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-02-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 2"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-03.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-03-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 3"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-04.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-04-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 4"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-05.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-05-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 5"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-06.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-06-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 6"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-07.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-07-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 7"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-08.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-08-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 8"
+                        }                        
+                    ]
+                },
+                {
+                    "id": "rcc-v4-2026",
+                    "title": "RCC v4 - Herencia Ancestral Peruana",
+                    "month": "Octubre",
+                    "year": 2026,
+                    "location": "Lima",
+                    "cover": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-01-thumb.webp",
+                    "description": "Registro fotográfico de RCC v4 - Herencia Ancestral Peruana, Octubre 2026. Contenido demostrativo para reemplazar por fotografías reales.",
+                    "images": []
+                },
+                {
+                    "id": "lanzamiento-candelaria-2026",
+                    "title": "Lanzamiento Candelaria",
+                    "month": "Noviembre",
+                    "year": 2026,
+                    "location": "Lima",
+                    "cover": "assets/images/gallery/2026/lanzamiento-candelaria/lanzamiento-candelaria-2026-01-thumb.webp",
+                    "description": "Registro fotográfico de Lanzamiento Candelaria, Noviembre 2026. Contenido demostrativo para reemplazar por fotografías reales.",
+                    "images": []
+                }
+            ]
+        }
+    ],
+    "rehearsals": {
+        "title": "Detrás de cada presentación",
+        "text": "Los últimos seis meses de ensayo: disciplina, constancia y comunidad.",
+        "images": [
+            {
+                "month": "Junio",
+                "year": 2026,
+                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-06.webp",
+                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-06-thumb.webp",
+                "alt": "Ensayo de Caporales Laykakota, Junio 2026"
+            },
+            {
+                "month": "Julio",
+                "year": 2026,
+                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-07.webp",
+                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-07-thumb.webp",
+                "alt": "Ensayo de Caporales Laykakota, Julio 2026"
+            },
+            {
+                "month": "Agosto",
+                "year": 2026,
+                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-08.webp",
+                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-08-thumb.webp",
+                "alt": "Ensayo de Caporales Laykakota, Agosto 2026"
+            },
+            {
+                "month": "Setiembre",
+                "year": 2026,
+                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-09.webp",
+                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-09-thumb.webp",
+                "alt": "Ensayo de Caporales Laykakota, Setiembre 2026"
+            },
+            {
+                "month": "Octubre",
+                "year": 2026,
+                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-10.webp",
+                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-10-thumb.webp",
+                "alt": "Ensayo de Caporales Laykakota, Octubre 2026"
+            },
+            {
+                "month": "Noviembre",
+                "year": 2026,
+                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-11.webp",
+                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-11-thumb.webp",
+                "alt": "Ensayo de Caporales Laykakota, Noviembre 2026"
+            }
+        ]
+    }
+}

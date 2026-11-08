@@ -1,0 +1,133 @@
+{
+  "brand": {
+    "name": "Caporales Laykakota",
+    "tagline": "Danza · Cultura · Perú · Siempre",
+    "short": "Caporales Laykakota"
+  },
+  "nav": [
+    {
+      "label": "Inicio",
+      "href": "#inicio"
+    },
+    {
+      "label": "Nosotros",
+      "href": "#nosotros"
+    },
+    {
+      "label": "Experiencias",
+      "href": "#galeria"
+    },
+    {
+      "label": "Agenda",
+      "href": "#agenda"
+    },
+    {
+      "label": "RCC",
+      "href": "#rcc"
+    },
+    {
+      "label": "Únete",
+      "href": "#unete"
+    },
+    {
+      "label": "Contacto",
+      "href": "#contacto"
+    }
+  ],
+  "hero": {
+    "eyebrow": "Caporales Laykakota · Lima, Perú",
+    "title": "Más que un baile, es nuestra identidad",
+    "text": "Una comunidad que vive la danza, preserva nuestras raíces y comparte la tradición con nuevas generaciones.",
+    "primary": "Quiero formar parte",
+    "secondary": "Conoce nuestra historia"
+  },
+  "about": {
+    "kicker": "Nuestra identidad",
+    "title": "Tradición que se baila. Comunidad que se construye.",
+    "intro": "Caporales Laykakota es una agrupación cultural dedicada a difundir la danza, fortalecer la identidad y crear espacios de encuentro alrededor de nuestras raíces.",
+    "missionTitle": "Misión",
+    "mission": "Promover y difundir nuestra expresión cultural mediante la danza, la disciplina y la participación activa de nuevas generaciones.",
+    "visionTitle": "Visión",
+    "vision": "Ser una agrupación referente por su calidad artística, organización y compromiso con la difusión responsable de nuestra cultura.",
+    "valuesTitle": "Lo que nos mueve",
+    "values": [
+      "Identidad",
+      "Disciplina",
+      "Comunidad",
+      "Respeto",
+      "Pasión"
+    ]
+  },
+  "gallery": {
+    "kicker": "Memoria visual",
+    "title": "Experiencias que construyen nuestra historia",
+    "text": "Recorre nuestras principales participaciones por año. Cada experiencia conserva su propia galería y forma parte del archivo histórico de Laykakota."
+  },
+  "agenda": {
+    "kicker": "Próximamente",
+    "title": "Agenda Laykakota",
+    "text": "Conoce nuestras próximas presentaciones, ensayos y actividades públicas.",
+    "empty": "Muy pronto anunciaremos nuevas actividades. Síguenos en redes para no perderte ninguna."
+  },
+  "rcc": {
+    "kicker": "Ritmo, Color y Candelaria",
+    "title": "Nuestras raíces siguen bailando",
+    "text": "Un espacio creado para celebrar y difundir la diversidad de las danzas del Perú, conectando tradición, artistas y público en una misma experiencia.",
+    "cta": "Conoce RCC"
+  },
+  "join": {
+    "kicker": "Convocatoria",
+    "title": "¿Quieres bailar con nosotros?",
+    "text": "No buscamos solo bailarines. Buscamos personas dispuestas a aprender, comprometerse y vivir esta tradición como parte de una comunidad.",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Conócenos",
+        "text": "Revisa nuestra identidad, actividades y forma de trabajo."
+      },
+      {
+        "n": "02",
+        "title": "Regístrate",
+        "text": "Completa el formulario de aspirantes con tus datos."
+      },
+      {
+        "n": "03",
+        "title": "Te contactamos",
+        "text": "Nuestro equipo te indicará los siguientes pasos del proceso."
+      }
+    ],
+    "button": "Iniciar mi postulación"
+  },
+  "contact": {
+    "kicker": "Hablemos",
+    "title": "¿Tienes alguna consulta?",
+    "text": "Escríbenos por WhatsApp o mediante nuestros canales oficiales.",
+    "whatsappLabel": "Hablar por WhatsApp",
+    "emailLabel": "Correo electrónico",
+    "socialLabel": "Síguenos"
+  },
+  "footer": {
+    "copy": "Caporales Laykakota. Todos los derechos reservados.",
+    "intranet": "Acceso integrantes"
+  },
+  "links": {
+    "whatsapp": "https://wa.me/51904516416?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20Caporales%20Laykakota.",
+    "application": "https://example.com/formulario-aspirantes",
+    "intranet": "https://example.com/intranet",
+    "email": "mailto:caporaleslaykakota@gmail.com",
+    "instagram": "https://instagram.com/caporaleslaykakota",
+    "facebook": "https://www.facebook.com/caporaleslaykakota",
+    "tiktok": "https://www.tiktok.com/@caporaleslaykakota",
+    "youtube": "https://www.youtube.com/@caporaleslaykakota",
+    "spotify": "https://open.spotify.com/user/31i4vz2lho2tbue4uzdeajyvosga?si=2670d3fe20634f9c"
+  },
+  "contactData": {
+    "phone": "+51 904 516 416",
+    "email": "caporaleslaykakota@gmail.com",
+    "instagram": "@caporaleslaykakota"
+  },
+  "seo": {
+    "title": "Caporales Laykakota | Danza, Cultura y Tradición",
+    "description": "Sitio oficial de Caporales Laykakota. Conoce nuestra historia, agenda, experiencias y cómo formar parte de la agrupación."
+  }
+}

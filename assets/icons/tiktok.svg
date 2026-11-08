@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="48" height="48">
+  <!-- Círculo de fondo negro -->
+  <circle cx="12" cy="12" r="12" fill="#010101"/>
+  
+  <!-- Desfasamiento Cian (#25F4EE) -->
+  <path fill="#25F4EE" d="M16.1 8.2a4.3 4.3 0 0 1-2.9-1.5V13.8a4.1 4.1 0 1 1-4.1-4.1c.3 0 .6.04.9.1V11.5a2.4 2.4 0 1 0 1.5 2.3V4h1.7a4.3 4.3 0 0 0 2.9 2.4v1.8z"/>
+  
+  <!-- Desfasamiento Magenta (#FE2C55) -->
+  <path fill="#FE2C55" d="M15.5 7.6a4.3 4.3 0 0 1-2.9-1.5V13.2a4.1 4.1 0 1 1-4.1-4.1c.3 0 .6.04.9.1V10.9a2.4 2.4 0 1 0 1.5 2.3V3.4h1.7a4.3 4.3 0 0 0 2.9 2.4v1.8z"/>
+  
+  <!-- Nota principal Blanca (#FFFFFF) superpuesta -->
+  <path fill="#FFFFFF" d="M15.8 7.9a4.3 4.3 0 0 1-2.9-1.5V13.5a4.1 4.1 0 1 1-4.1-4.1c.3 0 .6.04.9.1V11.2a2.4 2.4 0 1 0 1.5 2.3V3.7h1.7a4.3 4.3 0 0 0 2.9 2.4v1.8z"/>
+</svg>
