@@ -412,16 +412,17 @@ h2 {
     margin-top: 72px
 }
 
-/* CORRECCIÓN 1: Estructura vertical ordenada y espaciada para la sección Ensayos */
+/* Corrección de espaciado estético para la sección Ensayos */
 .rehearsal-header-group {
     display: flex;
     flex-direction: column;
-    gap: 14px;
-    margin-bottom: 28px;
+    gap: 16px;
+    margin-bottom: 30px;
 }
 
 .rehearsal-header-group h2 {
-    margin: 0;
+    margin-bottom: 8px;
+    line-height: 1.2;
 }
 
 .rehearsal-header-group .gallery-intro {
@@ -541,7 +542,7 @@ h2 {
     gap: 16px
 }
 
-/* CORRECCIÓN 2: Tarjetas convertidas en flex column con altura completa para unificar el pie de tarjeta */
+/* Tarjetas alineadas con el pie de tarjeta fijo */
 .event {
     background: #fff;
     border-radius: 18px;
@@ -552,10 +553,6 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
     height: 100%;
-}
-
-.event-content-wrapper {
-    flex-grow: 1;
 }
 
 .event .date {
@@ -580,7 +577,6 @@ h2 {
     margin-bottom: 16px;
 }
 
-/* Pie de tarjeta estandarizado (ubicación) */
 .event strong {
     display: block;
     margin-top: auto;
@@ -712,35 +708,33 @@ h2 {
     gap: 20px
 }
 
-/* CORRECCIÓN 3: Botón flotante de WhatsApp estilizado como un círculo perfecto y nítido */
+/* Botón flotante de WhatsApp fijado inequívocamente a la derecha y separado de la barra de tareas */
 .whatsapp-float {
-    position: fixed;
-    z-index: 50;
-    right: 24px;
-    bottom: 24px;
+    position: fixed !important;
+    z-index: 9999 !important;
+    right: 28px !important;
+    left: auto !important;
+    bottom: 28px !important;
     width: 60px;
     height: 60px;
     background-color: #25D366;
     color: #FFF;
     border-radius: 50%;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
+    transition: transform 0.25s ease, background-color 0.25s ease;
 }
 
 .whatsapp-float:hover {
     transform: scale(1.1);
     background-color: #20ba5a;
-    box-shadow: 0 12px 30px rgba(37, 211, 102, 0.6);
 }
 
 .whatsapp-float img {
-    width: 35px;
-    height: 35px;
+    width: 34px;
+    height: 34px;
     object-fit: contain;
     filter: brightness(0) invert(1);
 }
@@ -832,8 +826,8 @@ h2 {
     .whatsapp-float {
         width: 52px;
         height: 52px;
-        right: 18px;
-        bottom: 18px;
+        right: 18px !important;
+        bottom: 18px !important;
     }
 
     .whatsapp-float img {
