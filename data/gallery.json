@@ -1,6 +1,6 @@
 {
     "currentYear": 2026,
-    "intro": "Una memoria visual organizada por año y experiencia. Selecciona un año y abre cada evento para recorrer sus fotografías.",
+    "intro": "Filtra por temporada y descubre la galería fotográfica de cada vivencia, ensayos y escenarios que nos consolidan como gran familia institucional.",
     "years": [
         {
             "year": 2026,
@@ -79,7 +79,7 @@
                             "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-08.webp",
                             "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-08-thumb.webp",
                             "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 8"
-                        }                        
+                        }
                     ]
                 },
                 {
@@ -107,49 +107,55 @@
     ],
     "rehearsals": {
         "title": "Detrás de cada presentación",
-        "text": "Los últimos seis meses de ensayo: disciplina, constancia y comunidad.",
+        "text": "El esfuerzo, la técnica y la pasión que moldean nuestra identidad.",
         "images": [
             {
-                "month": "Junio",
-                "year": 2026,
-                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-06.webp",
-                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-06-thumb.webp",
-                "alt": "Ensayo de Caporales Laykakota, Junio 2026"
+                "src": "assets/images/ensayos/ensayo-01.webp",
+                "thumb": "assets/images/ensayos/ensayo-01-thumb.webp",
+                "alt": "Ensayo general de bloque",
+                "caption": "Preparación de cuadrillas"
             },
             {
-                "month": "Julio",
-                "year": 2026,
-                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-07.webp",
-                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-07-thumb.webp",
-                "alt": "Ensayo de Caporales Laykakota, Julio 2026"
+                "src": "assets/images/ensayos/ensayo-02.webp",
+                "thumb": "assets/images/rehearsals/ensayo-02.webp",
+                "alt": "Práctica de pasos",
+                "caption": "Constancia y técnica"
             },
             {
-                "month": "Agosto",
-                "year": 2026,
-                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-08.webp",
-                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-08-thumb.webp",
-                "alt": "Ensayo de Caporales Laykakota, Agosto 2026"
+                "src": "assets/images/ensayos/ensayo-03.webp",
+                "thumb": "assets/images/rehearsals/ensayo-03.webp",
+                "alt": "Coordinación de guías",
+                "caption": "Dirección artística"
             },
             {
-                "month": "Setiembre",
-                "year": 2026,
-                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-09.webp",
-                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-09-thumb.webp",
-                "alt": "Ensayo de Caporales Laykakota, Setiembre 2026"
+                "src": "assets/images/rehearsals/ensayo-04.webp",
+                "thumb": "assets/images/rehearsals/ensayo-04.webp",
+                "alt": "Elenco activo",
+                "caption": "Comunidad Laykakota"
             },
             {
-                "month": "Octubre",
-                "year": 2026,
-                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-10.webp",
-                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-10-thumb.webp",
-                "alt": "Ensayo de Caporales Laykakota, Octubre 2026"
+                "src": "assets/images/rehearsals/ensayo-05.webp",
+                "thumb": "assets/images/rehearsals/ensayo-05.webp",
+                "alt": "Práctica al aire libre",
+                "caption": "Disciplina semanal"
             },
             {
-                "month": "Noviembre",
-                "year": 2026,
-                "src": "assets/images/gallery/2026/ensayos/ensayo-2026-11.webp",
-                "thumb": "assets/images/gallery/2026/ensayos/ensayo-2026-11-thumb.webp",
-                "alt": "Ensayo de Caporales Laykakota, Noviembre 2026"
+                "src": "assets/images/gallery/ensayos/ensayo-06.webp",
+                "thumb": "assets/images/gallery/ensayos/ensayo-06-thumb.webp",
+                "alt": "Ensayos oficiales",
+                "caption": "Fuerza y zapateo"
+            },
+            {
+                "src": "assets/images/rehearsals/ensayo-07.webp",
+                "thumb": "assets/images/rehearsals/ensayo-07.webp",
+                "alt": "Calentamiento previo",
+                "caption": "Enfoque grupal"
+            },
+            {
+                "src": "assets/images/rehearsals/ensayo-08.webp",
+                "thumb": "assets/images/rehearsals/ensayo-08.webp",
+                "alt": "Gran equipo",
+                "caption": "Hermandad cultural"
             }
         ]
     }

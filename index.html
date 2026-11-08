@@ -8,6 +8,8 @@
     <meta name="theme-color" content="#070b15">
     <title>Caporales Laykakota</title>
     <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Swiper.js CSS para el carrusel táctil profesional -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -67,14 +69,24 @@
                 <div class="years" id="years"></div>
                 <div class="experiences" id="experiences"></div>
                 
-                <!-- Sección de Ensayos con espaciado vertical corregido -->
+                <!-- Sección de Ensayos con Carrusel Swiper Dinámico -->
                 <div class="rehearsal-block">
                     <div class="rehearsal-header-group">
                         <div class="kicker">Ensayos</div>
                         <h2 id="rehearsalTitle"></h2>
                         <p class="gallery-intro" id="rehearsalText"></p>
                     </div>
-                    <div class="rehearsals" id="rehearsals"></div>
+                    
+                    <!-- Contenedor Swiper -->
+                    <div class="swiper rehearsals-swiper">
+                        <div class="swiper-wrapper" id="rehearsals">
+                            <!-- Se inyecta dinámicamente desde JS -->
+                        </div>
+                        <!-- Controles del carrusel -->
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -153,11 +165,13 @@
         </div>
     </div>
     
-    <!-- Botón flotante de WhatsApp posicionado correctamente en la esquina inferior derecha -->
+    <!-- Botón flotante de WhatsApp -->
     <a class="whatsapp-float" id="whatsapp" target="_blank" rel="noopener" aria-label="Chat de WhatsApp">
         <img src="assets/icons/whatsapp.svg" alt="WhatsApp">
     </a>
 
+    <!-- Swiper.js JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 

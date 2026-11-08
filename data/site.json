@@ -44,24 +44,26 @@
   "about": {
     "kicker": "Nuestra identidad",
     "title": "Tradición que se baila. Comunidad que se construye.",
-    "intro": "Caporales Laykakota es una agrupación cultural dedicada a difundir la danza, fortalecer la identidad y crear espacios de encuentro alrededor de nuestras raíces.",
+    "intro": "Caporales Laykakota es una agrupación organizada bajo un sólido modelo institucional y formal, unida por la pasión del folclore y la disciplina artística, dedicada a enaltecer la danza de los caporales con excelencia y profesionalismo.",
     "missionTitle": "Misión",
-    "mission": "Promover y difundir nuestra expresión cultural mediante la danza, la disciplina y la participación activa de nuevas generaciones.",
+    "mission": "Promover, preservar y difundir con orgullo la danza de los caporales, garantizando como nuestra meta principal la participación anual en la Festividad de la Virgen de la Candelaria en Puno, a través del compromiso, la fe y la entrega de cada integrante.",
     "visionTitle": "Visión",
-    "vision": "Ser una agrupación referente por su calidad artística, organización y compromiso con la difusión responsable de nuestra cultura.",
+    "vision": "Consolidarnos como un referente de hermandad, transparencia y excelencia artística, fusionando la modernización y la gestión digital con nuestras profundas raíces culturales y devoción.",
     "valuesTitle": "Lo que nos mueve",
     "values": [
       "Identidad",
       "Disciplina",
-      "Comunidad",
       "Respeto",
-      "Pasión"
+      "Lealtad",
+      "Devoción",
+      "Excelencia",
+      "Hermandad"
     ]
   },
   "gallery": {
     "kicker": "Memoria visual",
     "title": "Experiencias que construyen nuestra historia",
-    "text": "Recorre nuestras principales participaciones por año. Cada experiencia conserva su propia galería y forma parte del archivo histórico de Laykakota."
+    "text": "Un archivo vivo de nuestra fe, disciplina y arte. Explora el recorrido de nuestras cuadrillas a través de los años y revive cada gran presentación."
   },
   "agenda": {
     "kicker": "Próximamente",
@@ -111,8 +113,8 @@
     "intranet": "Acceso integrantes"
   },
   "links": {
-    "whatsapp": "https://wa.me/51904516416?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20Caporales%20Laykakota.",
-    "application": "https://example.com/formulario-aspirantes",
+    "whatsapp": "https://wa.me/51994103752?text=Hola%2C%20quisiera%20recibir%20informaci%C3%B3n%20sobre%20Caporales%20Laykakota.",
+    "application": "https://forms.gle/8v7QkzeuXbzLPyXKA",
     "intranet": "https://example.com/intranet",
     "email": "mailto:caporaleslaykakota@gmail.com",
     "instagram": "https://instagram.com/caporaleslaykakota",
