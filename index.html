@@ -66,10 +66,14 @@
                 <p class="gallery-intro" id="galleryIntro"></p>
                 <div class="years" id="years"></div>
                 <div class="experiences" id="experiences"></div>
+                
+                <!-- CORRECCIÓN 1: Contenedor con espaciado vertical estructurado para Ensayos -->
                 <div class="rehearsal-block">
-                    <div class="kicker">Ensayos</div>
-                    <h2 id="rehearsalTitle"></h2>
-                    <p class="gallery-intro" id="rehearsalText"></p>
+                    <div class="rehearsal-header-group">
+                        <div class="kicker">Ensayos</div>
+                        <h2 id="rehearsalTitle"></h2>
+                        <p class="gallery-intro" id="rehearsalText"></p>
+                    </div>
                     <div class="rehearsals" id="rehearsals"></div>
                 </div>
             </div>
@@ -147,8 +151,13 @@
             </div>
             <div class="modal-grid" id="modalGrid"></div>
         </div>
-    </div><a class="whatsapp" id="whatsapp" target="_blank" rel="noopener"><img class="wa-icon"
-                src="assets/icons/whatsapp.svg" alt=""></a>
+    </div>
+    
+    <!-- CORRECCIÓN 3: Botón flotante de WhatsApp rediseñado como círculo perfecto -->
+    <a class="whatsapp-float" id="whatsapp" target="_blank" rel="noopener" aria-label="Chat de WhatsApp">
+        <img src="assets/icons/whatsapp.svg" alt="WhatsApp">
+    </a>
+
     <script src="assets/js/main.js"></script>
 </body>
 

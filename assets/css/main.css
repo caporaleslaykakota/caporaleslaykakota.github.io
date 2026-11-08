@@ -412,6 +412,22 @@ h2 {
     margin-top: 72px
 }
 
+/* CORRECCIÓN 1: Estructura vertical ordenada y espaciada para la sección Ensayos */
+.rehearsal-header-group {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-bottom: 28px;
+}
+
+.rehearsal-header-group h2 {
+    margin: 0;
+}
+
+.rehearsal-header-group .gallery-intro {
+    margin: 0;
+}
+
 .rehearsals {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -525,12 +541,21 @@ h2 {
     gap: 16px
 }
 
+/* CORRECCIÓN 2: Tarjetas convertidas en flex column con altura completa para unificar el pie de tarjeta */
 .event {
     background: #fff;
     border-radius: 18px;
     padding: 24px;
     box-shadow: 0 12px 30px #15223814;
-    border-top: 4px solid var(--blue)
+    border-top: 4px solid var(--blue);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.event-content-wrapper {
+    flex-grow: 1;
 }
 
 .event .date {
@@ -551,7 +576,18 @@ h2 {
 }
 
 .event p {
-    color: #667085
+    color: #667085;
+    margin-bottom: 16px;
+}
+
+/* Pie de tarjeta estandarizado (ubicación) */
+.event strong {
+    display: block;
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid #edf2f7;
+    font-size: .9rem;
+    color: #111827;
 }
 
 .rcc {
@@ -676,28 +712,37 @@ h2 {
     gap: 20px
 }
 
-.whatsapp {
+/* CORRECCIÓN 3: Botón flotante de WhatsApp estilizado como un círculo perfecto y nítido */
+.whatsapp-float {
     position: fixed;
-    z-index: 40;
-    right: 22px;
-    bottom: 22px;
-    background: #25D366;
-    color: #07150d;
-    font-weight: 950;
-    border-radius: 999px;
-    padding: 13px 18px;
-    box-shadow: var(--shadow)
-}
-
-.wa-content {
+    z-index: 50;
+    right: 24px;
+    bottom: 24px;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    color: #FFF;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0 8px 25px rgba(37, 211, 102, 0.4);
     display: flex;
     align-items: center;
-    gap: 8px
+    justify-content: center;
+    transition: transform 0.25s ease, background-color 0.25s ease, box-shadow 0.25s ease;
 }
 
-.wa-icon {
-    width: 22px;
-    height: 22px
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    background-color: #20ba5a;
+    box-shadow: 0 12px 30px rgba(37, 211, 102, 0.6);
+}
+
+.whatsapp-float img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    filter: brightness(0) invert(1);
 }
 
 .loading {
@@ -784,10 +829,16 @@ h2 {
         flex-direction: column
     }
 
-    .whatsapp {
-        font-size: .85rem;
-        right: 14px;
-        bottom: 14px
+    .whatsapp-float {
+        width: 52px;
+        height: 52px;
+        right: 18px;
+        bottom: 18px;
+    }
+
+    .whatsapp-float img {
+        width: 30px;
+        height: 30px;
     }
 
     .modal {
