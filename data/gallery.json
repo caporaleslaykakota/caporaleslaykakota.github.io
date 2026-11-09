@@ -57,16 +57,6 @@
                     ]
                 },
                 {
-                    "id": "saludo-collasuyo-cusco-2026",
-                    "title": "Saludo al Collasuyo - Cusco",
-                    "month": "Junio",
-                    "year": 2026,
-                    "location": "Cusco",
-                    "cover": "assets/images/gallery/2026/saludo-collasuyo-cusco/saludo-collasuyo-cusco-2026-01-thumb.webp",
-                    "description": "Registro fotográfico de Saludo al Collasuyo - Cusco, Junio 2026. Contenido demostrativo para reemplazar por fotografías reales.",
-                    "images": []
-                },
-                {
                     "id": "gran-parada-lima-2026",
                     "title": "Gran Parada de Lima",
                     "month": "Setiembre",
@@ -227,16 +217,6 @@
                             "alt": "Santiago, Octubre 2026 - fotografía 16"
                         }
                     ]
-                },
-                {
-                    "id": "lanzamiento-candelaria-2026",
-                    "title": "Lanzamiento Candelaria",
-                    "month": "Noviembre",
-                    "year": 2026,
-                    "location": "Lima",
-                    "cover": "assets/images/gallery/2026/lanzamiento-candelaria/lanzamiento-candelaria-2026-01-thumb.webp",
-                    "description": "Registro fotográfico de Lanzamiento Candelaria, Noviembre 2026. Contenido demostrativo para reemplazar por fotografías reales.",
-                    "images": []
                 }
             ]
         }
