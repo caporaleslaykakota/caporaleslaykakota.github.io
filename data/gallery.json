@@ -11,13 +11,48 @@
                     "month": "Febrero",
                     "year": 2026,
                     "location": "Puno",
-                    "cover": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-01-thumb.webp",
-                    "description": "Registro fotográfico de Candelaria - Puno, Febrero 2026. Contenido demostrativo para reemplazar por fotografías reales.",
+                    "cover": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-01.webp",
+                    "description": "Registro fotográfico de Candelaria - Puno, Febrero 2026.",
                     "images": [
                         {
                             "src": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-01.webp",
                             "thumb": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-01-thumb.webp",
                             "alt": "Candelaria - Puno, Febrero 2026 - fotografía 1"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-02.webp",
+                            "thumb": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-02-thumb.webp",
+                            "alt": "Candelaria - Puno, Febrero 2026 - fotografía 2"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-03.webp",
+                            "thumb": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-03-thumb.webp",
+                            "alt": "Candelaria - Puno, Febrero 2026 - fotografía 3"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-04.webp",
+                            "thumb": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-04-thumb.webp",
+                            "alt": "Candelaria - Puno, Febrero 2026 - fotografía 4"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-05.webp",
+                            "thumb": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-05-thumb.webp",
+                            "alt": "Candelaria - Puno, Febrero 2026 - fotografía 5"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-06.webp",
+                            "thumb": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-06-thumb.webp",
+                            "alt": "Candelaria - Puno, Febrero 2026 - fotografía 6"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-07.webp",
+                            "thumb": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-07-thumb.webp",
+                            "alt": "Candelaria - Puno, Febrero 2026 - fotografía 7"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-08.webp",
+                            "thumb": "assets/images/gallery/2026/candelaria-puno/candelaria-puno-2026-08-thumb.webp",
+                            "alt": "Candelaria - Puno, Febrero 2026 - fotografía 8"
                         }
                     ]
                 },
@@ -79,6 +114,26 @@
                             "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-08.webp",
                             "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-08-thumb.webp",
                             "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 8"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-09.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-09-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 9"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-10.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-10-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 10"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-11.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-11-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 11"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-12.webp",
+                            "thumb": "assets/images/gallery/2026/gran-parada-lima/gran-parada-lima-2026-12-thumb.webp",
+                            "alt": "Gran Parada de Lima, Setiembre 2026 - fotografía 12"
                         }
                     ]
                 },
@@ -90,7 +145,88 @@
                     "location": "Lima",
                     "cover": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-01-thumb.webp",
                     "description": "Registro fotográfico de RCC v4 - Herencia Ancestral Peruana, Octubre 2026. Contenido demostrativo para reemplazar por fotografías reales.",
-                    "images": []
+                    "images": [
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-01.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-01-thumb.webp",
+                            "alt": "Cuadro Ayacuchano, Octubre 2026 - fotografía 1"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-02.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-02-thumb.webp",
+                            "alt": "Cuadro Ayacuchano, Octubre 2026 - fotografía 2"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-03.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-03-thumb.webp",
+                            "alt": "Cofradía de San Miguel, Octubre 2026 - fotografía 3"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-04.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-04-thumb.webp",
+                            "alt": "Cofradía de San Miguel, Octubre 2026 - fotografía 4"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-05.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-05-thumb.webp",
+                            "alt": "Festejo, Octubre 2026 - fotografía 5"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-06.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-06-thumb.webp",
+                            "alt": "Festejo, Octubre 2026 - fotografía 6"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-07.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-07-thumb.webp",
+                            "alt": "Zapateadores, Octubre 2026 - fotografía 7"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-08.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-08-thumb.webp",
+                            "alt": "Zapateadores, Octubre 2026 - fotografía 8"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-09.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-09-thumb.webp",
+                            "alt": "Caporales, Octubre 2026 - fotografía 9"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-10.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-10-thumb.webp",
+                            "alt": "Caporales, Octubre 2026 - fotografía 10"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-11.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-11-thumb.webp",
+                            "alt": "Caporales, Octubre 2026 - fotografía 11"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-12.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-12-thumb.webp",
+                            "alt": "Caporales, Octubre 2026 - fotografía 12"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-13.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-13-thumb.webp",
+                            "alt": "Caporales, Octubre 2026 - fotografía 13"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-14.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-14-thumb.webp",
+                            "alt": "Caporales, Octubre 2026 - fotografía 14"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-15.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-15-thumb.webp",
+                            "alt": "Santiago, Octubre 2026 - fotografía 15"
+                        },
+                        {
+                            "src": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-16.webp",
+                            "thumb": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-16-thumb.webp",
+                            "alt": "Santiago, Octubre 2026 - fotografía 16"
+                        }
+                    ]
                 },
                 {
                     "id": "lanzamiento-candelaria-2026",
@@ -110,52 +246,36 @@
         "text": "El esfuerzo, la técnica y la pasión que moldean nuestra identidad.",
         "images": [
             {
-                "src": "assets/images/ensayos/ensayo-01.webp",
-                "thumb": "assets/images/ensayos/ensayo-01-thumb.webp",
-                "alt": "Ensayo general de bloque",
-                "caption": "Preparación de cuadrillas"
+                "src": "assets/images/gallery/ensayos/ensayo-01.webp",
+                "thumb": "assets/images/gallery/ensayos/ensayo-01-thumb.webp"
             },
             {
-                "src": "assets/images/ensayos/ensayo-02.webp",
-                "thumb": "assets/images/rehearsals/ensayo-02.webp",
-                "alt": "Práctica de pasos",
-                "caption": "Constancia y técnica"
+                "src": "assets/images/gallery/ensayos/ensayo-02.webp",
+                "thumb": "assets/images/gallery/ensayos/ensayo-02-thumb.webp"
             },
             {
-                "src": "assets/images/ensayos/ensayo-03.webp",
-                "thumb": "assets/images/rehearsals/ensayo-03.webp",
-                "alt": "Coordinación de guías",
-                "caption": "Dirección artística"
+                "src": "assets/images/gallery/ensayos/ensayo-03.webp",
+                "thumb": "assets/images/gallery/ensayos/ensayo-03-thumb.webp"
             },
             {
-                "src": "assets/images/rehearsals/ensayo-04.webp",
-                "thumb": "assets/images/rehearsals/ensayo-04.webp",
-                "alt": "Elenco activo",
-                "caption": "Comunidad Laykakota"
+                "src": "assets/images/gallery/ensayos/ensayo-04.webp",
+                "thumb": "assets/images/gallery/ensayos/ensayo-04-thumb.webp"
             },
             {
-                "src": "assets/images/rehearsals/ensayo-05.webp",
-                "thumb": "assets/images/rehearsals/ensayo-05.webp",
-                "alt": "Práctica al aire libre",
-                "caption": "Disciplina semanal"
+                "src": "assets/images/gallery/ensayos/ensayo-05.webp",
+                "thumb": "assets/images/gallery/ensayos/ensayo-05-thumb.webp"
             },
             {
                 "src": "assets/images/gallery/ensayos/ensayo-06.webp",
-                "thumb": "assets/images/gallery/ensayos/ensayo-06-thumb.webp",
-                "alt": "Ensayos oficiales",
-                "caption": "Fuerza y zapateo"
+                "thumb": "assets/images/gallery/ensayos/ensayo-06-thumb.webp"
             },
             {
-                "src": "assets/images/rehearsals/ensayo-07.webp",
-                "thumb": "assets/images/rehearsals/ensayo-07.webp",
-                "alt": "Calentamiento previo",
-                "caption": "Enfoque grupal"
+                "src": "assets/images/gallery/ensayos/ensayo-07.webp",
+                "thumb": "assets/images/gallery/ensayos/ensayo-07-thumb.webp"
             },
             {
-                "src": "assets/images/rehearsals/ensayo-08.webp",
-                "thumb": "assets/images/rehearsals/ensayo-08.webp",
-                "alt": "Gran equipo",
-                "caption": "Hermandad cultural"
+                "src": "assets/images/gallery/ensayos/ensayo-08.webp",
+                "thumb": "assets/images/gallery/ensayos/ensayo-08-thumb.webp"
             }
         ]
     }

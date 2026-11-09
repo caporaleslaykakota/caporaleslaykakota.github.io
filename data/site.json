@@ -44,7 +44,8 @@
   "about": {
     "kicker": "Nuestra identidad",
     "title": "Tradición que se baila. Comunidad que se construye.",
-    "intro": "Caporales Laykakota es una agrupación organizada bajo un sólido modelo institucional y formal, unida por la pasión del folclore y la disciplina artística, dedicada a enaltecer la danza de los caporales con excelencia y profesionalismo.",
+    "intro": "Caporales Laykakota es una agrupación organizada bajo un sólido modelo institucional y formal, unida por la pasión del folclor...",
+    "image": "assets/images/gallery/identidad.webp",
     "missionTitle": "Misión",
     "mission": "Promover, preservar y difundir con orgullo la danza de los caporales, garantizando como nuestra meta principal la participación anual en la Festividad de la Virgen de la Candelaria en Puno, a través del compromiso, la fe y la entrega de cada integrante.",
     "visionTitle": "Visión",
@@ -72,15 +73,21 @@
     "empty": "Muy pronto anunciaremos nuevas actividades. Síguenos en redes para no perderte ninguna."
   },
   "rcc": {
-    "kicker": "Ritmo, Color y Candelaria",
+    "kicker": "RITMO, COLOR Y CANDELARIA (RCC)",
     "title": "Nuestras raíces siguen bailando",
-    "text": "Un espacio creado para celebrar y difundir la diversidad de las danzas del Perú, conectando tradición, artistas y público en una misma experiencia.",
-    "cta": "Conoce RCC"
+    "subtitle": "Lo que nuestros ancestros nos dejaron, nosotros lo hacemos bailar.",
+    "text": "Nuestra gran gala cultural anual. Un encuentro donde honramos la riqueza folclórica del Perú a través de diversas expresiones dancísticas, música en vivo y la fe puesta en escena con la majestuosidad de la Virgen de la Candelaria.",
+    "cta": "Adquirir Entradas",
+    "ticketingActive": false,
+    "bannerImage": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-logo.webp",
+    "flyer": "assets/images/gallery/2026/rcc-v4/rcc-v4-2026-flyer.webp"
   },
   "join": {
     "kicker": "Convocatoria",
     "title": "¿Quieres bailar con nosotros?",
     "text": "No buscamos solo bailarines. Buscamos personas dispuestas a aprender, comprometerse y vivir esta tradición como parte de una comunidad.",
+    "button": "Iniciar mi postulación",
+    "bgImage": "assets/images/gallery/convocatoria.webp",
     "steps": [
       {
         "n": "01",
@@ -97,8 +104,7 @@
         "title": "Te contactamos",
         "text": "Nuestro equipo te indicará los siguientes pasos del proceso."
       }
-    ],
-    "button": "Iniciar mi postulación"
+    ]
   },
   "contact": {
     "kicker": "Hablemos",

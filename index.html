@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#070b15">
     <title>Caporales Laykakota</title>
     <link rel="stylesheet" href="assets/css/main.css">
-    <!-- Swiper.js CSS para el carrusel táctil profesional -->
+    <!-- Swiper.js CSS para el carrusel táctil -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -31,6 +31,8 @@
                         class="btn ghost" href="#nosotros"><span id="heroSecondary"></span></a></div>
             </div>
         </section>
+        
+        <!-- Sección Nosotros con Imagen Circular a la izq y Misión/Visión/Valores a la der -->
         <section class="section identity" id="nosotros">
             <div class="container">
                 <div class="section-head">
@@ -40,22 +42,29 @@
                     </div>
                     <p id="aboutIntro"></p>
                 </div>
-                <div class="identity-grid">
-                    <article class="card gold">
-                        <h3 id="missionTitle"></h3>
-                        <p id="mission"></p>
-                    </article>
-                    <article class="card">
-                        <h3 id="visionTitle"></h3>
-                        <p id="vision"></p>
-                    </article>
-                    <article class="card">
-                        <h3 id="valuesTitle"></h3>
-                        <div class="values" id="values"></div>
+                
+                <div class="identity-layout-fixed">
+                    <div class="identity-circle-container">
+                        <img id="aboutImage" src="" alt="Identidad Caporales Laykakota" loading="lazy">
+                    </div>
+                    <article class="card gold identity-content-box">
+                        <div class="identity-block">
+                            <h3 id="missionTitle"></h3>
+                            <p id="mission"></p>
+                        </div>
+                        <div class="identity-block">
+                            <h3 id="visionTitle"></h3>
+                            <p id="vision"></p>
+                        </div>
+                        <div class="identity-values-inline">
+                            <h3 id="valuesTitle"></h3>
+                            <div class="values" id="values"></div>
+                        </div>
                     </article>
                 </div>
             </div>
         </section>
+
         <section class="section" id="galeria">
             <div class="container">
                 <div class="section-head">
@@ -69,7 +78,6 @@
                 <div class="years" id="years"></div>
                 <div class="experiences" id="experiences"></div>
                 
-                <!-- Sección de Ensayos con Carrusel Swiper Dinámico -->
                 <div class="rehearsal-block">
                     <div class="rehearsal-header-group">
                         <div class="kicker">Ensayos</div>
@@ -77,12 +85,8 @@
                         <p class="gallery-intro" id="rehearsalText"></p>
                     </div>
                     
-                    <!-- Contenedor Swiper -->
                     <div class="swiper rehearsals-swiper">
-                        <div class="swiper-wrapper" id="rehearsals">
-                            <!-- Se inyecta dinámicamente desde JS -->
-                        </div>
-                        <!-- Controles del carrusel -->
+                        <div class="swiper-wrapper" id="rehearsals"></div>
                         <div class="swiper-pagination"></div>
                         <div class="swiper-button-prev"></div>
                         <div class="swiper-button-next"></div>
@@ -90,6 +94,7 @@
                 </div>
             </div>
         </section>
+
         <section class="section agenda" id="agenda">
             <div class="container">
                 <div class="section-head">
@@ -102,16 +107,27 @@
                 <div class="events" id="events"></div>
             </div>
         </section>
+        
+        <!-- Sección RCC -->
         <section class="section rcc" id="rcc">
-            <div class="container">
+            <div class="container rcc-grid">
                 <div class="rcc-content">
                     <div class="kicker" id="rccKicker"></div>
                     <h2 id="rccTitle"></h2>
-                    <p class="lead" id="rccText"></p><a class="btn primary" href="#contacto" id="rccCta"></a>
+                    <blockquote class="rcc-quote" id="rccSubtitle"></blockquote>
+                    <p class="lead" id="rccText"></p>
+                    <div class="rcc-actions">
+                        <button class="btn primary" id="rccCtaBtn" style="display: none;"></button>
+                    </div>
+                </div>
+                <div class="rcc-visual" id="rccVisualCard">
+                    <img id="rccPreviewImg" src="" alt="Ritmo, Color y Candelaria" loading="lazy">
                 </div>
             </div>
         </section>
-        <section class="section" id="unete">
+        
+        <!-- Sección Únete / Convocatoria con fondo parametrizable -->
+        <section class="section join-section" id="unete">
             <div class="container join-grid">
                 <div>
                     <div class="kicker" id="joinKicker"></div>
@@ -122,19 +138,21 @@
                 <div class="steps" id="steps"></div>
             </div>
         </section>
+
         <section class="section contact" id="contacto">
             <div class="container contact-grid">
                 <div>
                     <div class="kicker" id="contactKicker"></div>
                     <h2 id="contactTitle"></h2>
                     <p class="lead" id="contactText"></p>
-                    <div class="actions"><a class="btn primary" id="waContact" target="_blank" rel="noopener">Hablar por
-                            WhatsApp</a><a class="btn ghost" id="emailLink">Enviar correo</a></div>
+                    <div class="actions">
+                        <a class="btn primary" id="waContact" target="_blank" rel="noopener">Hablar por WhatsApp</a>
+                    </div>
                 </div>
                 <div class="contact-list">
                     <div class="contact-row"><small>Teléfono: </small><strong id="phone"></strong></div>
-                    <div class="contact-row"><small>Correo: </small><strong id="email"></strong></div>
-                    <div class="contact-row"><small>Nuestras Redes: </small><strong id="instagram"></strong></div>
+                    <div class="contact-row"><small>Correo institucional: </small><a id="emailLinkText" class="contact-link"><strong id="email"></strong></a></div>
+                    <div class="contact-row"><small>Nuestras Redes: </small></div>
                     <div class="socials social-icons" aria-label="Redes sociales"><a id="instagramLink" target="_blank"
                             rel="noopener" aria-label="Instagram" title="Instagram"><img
                                 src="assets/icons/instagram.svg" alt=""></a><a id="tiktok" target="_blank"
@@ -149,8 +167,7 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container footer-inner"><span id="footerCopy"></span><a id="intranet" target="_blank"
-                rel="noopener"><span id="intranetLabel"></span></a></div>
+        <div class="container footer-inner"><span id="footerCopy"></span></div>
     </footer>
     <div class="modal" id="galleryModal">
         <div class="modal-panel">
@@ -165,7 +182,6 @@
         </div>
     </div>
     
-    <!-- Botón flotante de WhatsApp -->
     <a class="whatsapp-float" id="whatsapp" target="_blank" rel="noopener" aria-label="Chat de WhatsApp">
         <img src="assets/icons/whatsapp.svg" alt="WhatsApp">
     </a>

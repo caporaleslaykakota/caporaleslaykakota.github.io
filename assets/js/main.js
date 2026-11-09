@@ -27,6 +27,12 @@ function renderSite(s) {
     text('aboutKicker', s.about.kicker);
     text('aboutTitle', s.about.title);
     text('aboutIntro', s.about.intro);
+    
+    const aboutImg = $('#aboutImage');
+    if (aboutImg && s.about.image) {
+        aboutImg.src = s.about.image;
+    }
+
     text('missionTitle', s.about.missionTitle);
     text('mission', s.about.mission);
     text('visionTitle', s.about.visionTitle);
@@ -39,14 +45,40 @@ function renderSite(s) {
     text('agendaKicker', s.agenda.kicker);
     text('agendaTitle', s.agenda.title);
     text('agendaText', s.agenda.text);
+    
     text('rccKicker', s.rcc.kicker);
     text('rccTitle', s.rcc.title);
+    text('rccSubtitle', s.rcc.subtitle);
     text('rccText', s.rcc.text);
-    text('rccCta', s.rcc.cta);
+    
+    const previewImg = $('#rccPreviewImg');
+    if (s.rcc.bannerImage) {
+        previewImg.src = s.rcc.bannerImage;
+    } else if (s.rcc.flyer) {
+        previewImg.src = s.rcc.flyer;
+    }
+    
+    const rccBtn = $('#rccCtaBtn');
+    if (s.rcc.ticketingActive) {
+        rccBtn.textContent = s.rcc.cta;
+        rccBtn.style.display = 'inline-flex';
+        rccBtn.onclick = () => openSingleImage(s.rcc.flyer, s.rcc.title);
+    } else {
+        rccBtn.style.display = 'none';
+    }
+
     text('joinKicker', s.join.kicker);
     text('joinTitle', s.join.title);
     text('joinText', s.join.text);
     text('joinButton', s.join.button);
+    
+    if (s.join.bgImage) {
+        const joinSection = $('#unete');
+        if (joinSection) {
+            joinSection.style.setProperty('--join-bg', `url('../${s.join.bgImage.replace('assets/', '')}')`);
+        }
+    }
+
     $('#steps').innerHTML = s.join.steps.map(x => `<div class="step"><div class="step-num">${x.n}</div><div><h3>${x.title}</h3><p>${x.text}</p></div></div>`).join('');
     text('contactKicker', s.contact.kicker);
     text('contactTitle', s.contact.title);
@@ -55,16 +87,26 @@ function renderSite(s) {
     text('email', s.contactData.email);
     text('instagramHandle', s.contactData.instagram);
     text('footerCopy', `${new Date().getFullYear()} · ${s.footer.copy}`);
-    text('intranetLabel', s.footer.intranet);
+    
     link('heroJoin', s.links.application);
     link('joinButtonLink', s.links.application);
     link('whatsapp', s.links.whatsapp);
     link('waContact', s.links.whatsapp);
-    link('emailLink', s.links.email);
+    link('emailLinkText', s.links.email);
     link('intranet', s.links.intranet);
     link('instagramLink', s.links.instagram);
     ['facebook', 'tiktok', 'youtube', 'spotify'].forEach(k => link(k, s.links[k]));
-    $('#nav').innerHTML = s.nav.map(n => `<a href="${n.href}">${n.label}</a>`).join('');
+    
+    // Generación del menú público + el icono discreto de la Intranet (Candado Cerrado)
+    const navHtml = s.nav.map(n => `<a href="${n.href}">${n.label}</a>`).join('');
+    const lockIconHtml = `
+        <a href="${s.links.intranet}" class="intranet-lock-link" target="_blank" rel="noopener" title="Intranet">
+            <svg class="intranet-lock-icon" viewBox="0 0 24 24">
+                <path d="M18 8h-1V6c0-2.76-2.24-5-5-5S7 3.24 7 6v2H6c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V10c0-1.1-.9-2-2-2zm-6 9c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm3.1-9H8.9V6c0-1.71 1.39-3.1 3.1-3.1 1.71 0 3.1 1.39 3.1 3.1v2z"/>
+            </svg>
+        </a>
+    `;
+    $('#nav').innerHTML = navHtml + lockIconHtml;
 }
 
 function renderEvents(items) {
@@ -84,17 +126,14 @@ function renderGallery(data) {
     $('#rehearsalTitle').textContent = data.rehearsals.title;
     $('#rehearsalText').textContent = data.rehearsals.text;
     
-    // Inyectar slides con formato requerido por Swiper.js
     $('#rehearsals').innerHTML = data.rehearsals.images.map(x => `
         <div class="swiper-slide">
-            <figure class="rehearsal-card" data-full="${x.src || x.thumb}" data-caption="${x.caption || x.alt}">
-                <img src="${x.thumb}" alt="${x.alt}" loading="lazy">
-                <figcaption>${x.caption || (x.month ? x.month + ' ' + x.year : x.alt)}</figcaption>
+            <figure class="rehearsal-card" data-full="${x.src || x.thumb}" data-caption="Ensayo Laykakota">
+                <img src="${x.thumb}" alt="Ensayo Caporales Laykakota" loading="lazy">
             </figure>
         </div>
     `).join('');
 
-    // Inicializar el motor dinámico de Swiper táctil
     new Swiper('.rehearsals-swiper', {
         slidesPerView: 1,
         spaceBetween: 16,
@@ -133,7 +172,7 @@ function openExperience(id) {
 
 function openSingleImage(src, title) {
     $('#modalTitle').textContent = title;
-    $('#modalMeta').textContent = 'Ensayos Laykakota';
+    $('#modalMeta').textContent = 'Ritmo, Color y Candelaria';
     $('#modalText').textContent = '';
     $('#modalGrid').innerHTML = `<a href="${src}" target="_blank" style="grid-column: span 4;"><img src="${src}" alt="${title}" style="max-height: 70vh; object-fit: contain; width: 100%;"></a>`;
     $('#galleryModal').classList.add('open');
