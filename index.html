@@ -8,7 +8,7 @@
     <meta name="theme-color" content="#070b15">
     <title>Caporales Laykakota</title>
     <link rel="stylesheet" href="assets/css/main.css">
-    <!-- Swiper.js CSS para el carrusel táctil -->
+    <!-- Swiper.js CSS para los carruseles -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
@@ -32,7 +32,7 @@
             </div>
         </section>
         
-        <!-- Sección Nosotros con Imagen Circular a la izq y Misión/Visión/Valores a la der -->
+        <!-- Sección Nosotros -->
         <section class="section identity" id="nosotros">
             <div class="container">
                 <div class="section-head">
@@ -95,6 +95,7 @@
             </div>
         </section>
 
+        <!-- SECCIÓN AGENDA MEJORADA -->
         <section class="section agenda" id="agenda">
             <div class="container">
                 <div class="section-head">
@@ -104,7 +105,16 @@
                     </div>
                     <p id="agendaText"></p>
                 </div>
-                <div class="events" id="events"></div>
+                
+                <!-- Swiper para los 5 próximos eventos/ensayos -->
+                <div class="swiper agenda-swiper">
+                    <div class="swiper-wrapper" id="events"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="agenda-actions">
+                    <button class="btn-show-more" id="openCalendarModalBtn">Mostrar mas eventos</button>
+                </div>
             </div>
         </section>
         
@@ -126,7 +136,7 @@
             </div>
         </section>
         
-        <!-- Sección Únete / Convocatoria con fondo parametrizable -->
+        <!-- Sección Únete -->
         <section class="section join-section" id="unete">
             <div class="container join-grid">
                 <div>
@@ -169,6 +179,8 @@
     <footer class="footer">
         <div class="container footer-inner"><span id="footerCopy"></span></div>
     </footer>
+
+    <!-- Modal de Galería Original -->
     <div class="modal" id="galleryModal">
         <div class="modal-panel">
             <div class="modal-top">
@@ -179,6 +191,32 @@
                 </div><button class="modal-close" id="modalClose" aria-label="Cerrar">×</button>
             </div>
             <div class="modal-grid" id="modalGrid"></div>
+        </div>
+    </div>
+
+    <!-- MODAL DE CALENDARIO DE AGENDA -->
+    <div class="modal" id="calendarModal">
+        <div class="modal-panel calendar-modal-panel">
+            <div class="modal-top">
+                <div>
+                    <div class="modal-meta">Agenda Institucional</div>
+                    <h2>Calendario de Actividades</h2>
+                </div>
+                <button class="modal-close" id="calendarModalClose" aria-label="Cerrar">×</button>
+            </div>
+            <div class="calendar-modal-body">
+                <div>
+                    <div class="calendars-container" id="calendarsContainer"></div>
+                    <div class="calendar-legend">
+                        <div class="legend-item"><span class="legend-box event"></span> Evento</div>
+                        <div class="legend-item"><span class="legend-box ensayo"></span> Ensayo</div>
+                        <div class="legend-item"><span class="legend-box dual"></span> Ambos (Coincidencia)</div>
+                    </div>
+                </div>
+                <div class="detail-panel" id="calendarDetailPanel">
+                    <p style="color: #64748b; text-align: center; font-size: 0.9rem;">Haz clic en una fecha para ver las actividades.</p>
+                </div>
+            </div>
         </div>
     </div>
     

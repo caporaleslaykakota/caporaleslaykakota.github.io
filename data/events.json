@@ -22,7 +22,47 @@
   {
     "id": "evt-003",
     "type": "RCC",
-    "date": "2027-10-24",
+    "date": "2026-12-24",
+    "time": "13:00",
+    "title": "Ritmo, Color y Candelaria",
+    "place": "Lima",
+    "description": "Fecha demostrativa para la próxima edición. Reemplazar al confirmar.",
+    "public": true
+  },
+  {
+    "id": "evt-003",
+    "type": "RCC",
+    "date": "2026-12-24",
+    "time": "13:00",
+    "title": "Ritmo, Color y Candelaria",
+    "place": "Lima",
+    "description": "Fecha demostrativa para la próxima edición. Reemplazar al confirmar.",
+    "public": true
+  },
+  {
+    "id": "evt-003",
+    "type": "RCC",
+    "date": "2026-12-24",
+    "time": "13:00",
+    "title": "Ritmo, Color y Candelaria",
+    "place": "Lima",
+    "description": "Fecha demostrativa para la próxima edición. Reemplazar al confirmar.",
+    "public": true
+  },
+  {
+    "id": "evt-003",
+    "type": "RCC",
+    "date": "2026-12-24",
+    "time": "13:00",
+    "title": "Ritmo, Color y Candelaria",
+    "place": "Lima",
+    "description": "Fecha demostrativa para la próxima edición. Reemplazar al confirmar.",
+    "public": true
+  },
+  {
+    "id": "evt-003",
+    "type": "RCC",
+    "date": "2026-12-24",
     "time": "13:00",
     "title": "Ritmo, Color y Candelaria",
     "place": "Lima",
