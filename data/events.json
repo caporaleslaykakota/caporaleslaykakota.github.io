@@ -98,15 +98,5 @@
     "place": "Estadio Nacional, Lima",
     "description": "Organizado por: Federación Regional de Folklore y Cultura de Puno",
     "public": true
-  },
-  {
-    "id": "001F53C6",
-    "type": "Ensayo",
-    "date": "2026-11-17",
-    "time": "15:09:30",
-    "title": "Ensayo",
-    "place": "Paseo de los Héroes Navales, Lima",
-    "description": "",
-    "public": true
   }
 ]
