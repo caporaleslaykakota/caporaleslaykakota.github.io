@@ -40,16 +40,6 @@
     "public": true
   },
   {
-    "id": "ba4125fa",
-    "type": "Ensayo",
-    "date": "2026-11-19",
-    "time": "19:00:00",
-    "title": "Ensayo",
-    "place": "Concha Acústica Campo de Marte, Lima",
-    "description": "",
-    "public": true
-  },
-  {
     "id": "7d590eeb",
     "type": "Ensayo",
     "date": "2026-11-26",
