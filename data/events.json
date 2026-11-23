@@ -68,15 +68,5 @@
     "place": "Concha Acústica Campo de Marte, Lima",
     "description": "",
     "public": true
-  },
-  {
-    "id": "0592827A",
-    "type": "Evento",
-    "date": "2026-11-22",
-    "time": "15:00:00",
-    "title": "Inauguración Festividad Candelaria",
-    "place": "Estadio Nacional, Lima",
-    "description": "Organizado por: Federación Regional de Folklore y Cultura de Puno",
-    "public": true
   }
 ]
