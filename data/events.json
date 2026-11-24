@@ -1,15 +1,5 @@
 [
   {
-    "id": "d4aead49",
-    "type": "Ensayo",
-    "date": "2026-11-23",
-    "time": "19:00:00",
-    "title": "Ensayo",
-    "place": "Paseo de los Héroes Navales, Lima",
-    "description": "",
-    "public": true
-  },
-  {
     "id": "e8c5e8f6",
     "type": "Ensayo",
     "date": "2026-11-30",
